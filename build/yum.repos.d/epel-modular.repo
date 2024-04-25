@@ -1,0 +1,17 @@
+[epel-modular]
+name=epel-modular
+baseurl=http://mirrors.tencent.com/epel/8/Modular/$basearch
+enabled=0
+gpgcheck=0
+
+[epel-modular-debuginfo]
+name=epel-modular-debuginfo
+baseurl=http://mirrors.tencent.com/epel/8/Modular/$basearch/debug
+enabled=0
+gpgcheck=0
+
+[epel-modular-source]
+name=epel-modular-source
+baseurl=http://mirrors.tencent.com/epel/8/Modular/source/tree/
+enabled=0
+gpgcheck=0

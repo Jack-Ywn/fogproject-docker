@@ -1,0 +1,5 @@
+[ha]
+name=ha
+baseurl=http://mirrors.tencent.com/rocky/$releasever/HighAvailability/$basearch/os/
+gpgcheck=0
+enabled=0

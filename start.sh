@@ -1,0 +1,1 @@
+docker run -d --network=host --name fogproject --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -v ./fog/mysql:/var/lib/mysql -v ./fog/opt:/opt -v ./fog/tftpboot:/tftpboot -v ./fog/images:/images jackywn/fogproject

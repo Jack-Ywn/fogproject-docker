@@ -1,0 +1,11 @@
+[remi-safe]
+name=remi-safe
+baseurl=http://mirrors.aliyun.com/remi/enterprise/8/safe/$basearch/
+enabled=1
+gpgcheck=0
+
+[remi-safe-debuginfo]
+name=remi-safe-debuginfo
+baseurl=http://mirrors.aliyun.com/remi/enterprise/8/debug-remi/$basearch/
+enabled=0
+gpgcheck=0

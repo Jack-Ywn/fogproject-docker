@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  fogproject:
+    image: jackywn/fogproject
+    container_name: fogproject
+    network_mode: "host"
+    privileged: true
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+      - ./fog/mysql:/var/lib/mysql
+      - ./fog/opt:/opt
+      - ./fog/tftpboot:/tftpboot
+      - ./fog/images:/images
+

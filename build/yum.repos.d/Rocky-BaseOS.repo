@@ -1,0 +1,6 @@
+[baseos]
+name=baseos
+baseurl=http://mirrors.tencent.com/rocky/$releasever/BaseOS/$basearch/os/
+gpgcheck=0
+enabled=1
+

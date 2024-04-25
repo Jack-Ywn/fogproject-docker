@@ -1,0 +1,5 @@
+[resilient-storage]
+name=resilient-storage
+baseurl=http://mirrors.tencent.com/rocky/$releasever/ResilientStorage/$basearch/os/
+gpgcheck=0
+enabled=0

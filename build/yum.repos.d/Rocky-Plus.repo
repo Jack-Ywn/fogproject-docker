@@ -1,0 +1,5 @@
+[plus]
+name=plus
+baseurl=http://mirrors.tencent.com/rocky/$releasever/plus/$basearch/os/
+gpgcheck=0
+enabled=0

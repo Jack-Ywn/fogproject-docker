@@ -1,0 +1,6 @@
+[rt]
+name=rt
+baseurl=http://mirrors.tencent.com/rocky/$releasever/RT/$basearch/os/
+gpgcheck=0
+enabled=0
+

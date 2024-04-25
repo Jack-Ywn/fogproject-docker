@@ -1,0 +1,15 @@
+[media-baseos]
+name=media-baseos
+baseurl=file:///media/Rocky/BaseOS
+        file:///media/cdrom/BaseOS
+        file:///media/cdrecorder/BaseOS
+gpgcheck=0
+enabled=0
+
+[media-appstream]
+name=media-appstream
+baseurl=file:///media/Rocky/AppStream
+        file:///media/cdrom/AppStream
+        file:///media/cdrecorder/AppStream
+gpgcheck=0
+enabled=0

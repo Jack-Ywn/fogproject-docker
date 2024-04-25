@@ -1,0 +1,6 @@
+[extras]
+name=extras
+baseurl=http://mirrors.tencent.com/rocky/$releasever/extras/$basearch/os/
+gpgcheck=0
+enabled=1
+

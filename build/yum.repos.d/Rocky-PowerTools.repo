@@ -1,0 +1,5 @@
+[powertools]
+name=powertools
+baseurl=http://mirrors.tencent.com/rocky/$releasever/PowerTools/$basearch/os/
+gpgcheck=0
+enabled=0

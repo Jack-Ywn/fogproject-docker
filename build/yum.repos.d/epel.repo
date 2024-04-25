@@ -1,0 +1,17 @@
+[epel]
+name=epel
+baseurl=http://mirrors.tencent.com/epel/8/Everything/$basearch
+enabled=1
+gpgcheck=0
+
+[epel-debuginfo]
+name=epel-debuginfo
+baseurl=http://mirrors.tencent.com/epel/8/Everything/$basearch/debug
+enabled=0
+gpgcheck=0
+
+[epel-source]
+name=epel-source
+baseurl=http://mirrors.tencent.com/epel/8/Everything/source/tree/
+enabled=0
+gpgcheck=0

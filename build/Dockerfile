@@ -33,7 +33,6 @@ php-mbstring php-mysqlnd php-process syslinux tar tftp-server unzip util-linux-u
 yum clean all
 
 #配置安装服务
-COPY fogproject-1.5.10.tar.gz /fogproject-1.5.10.tar.gz
 COPY install-fogproject.sh /install-fogproject.sh
 RUN chmod +x /install-fogproject.sh
 

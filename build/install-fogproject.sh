@@ -4,9 +4,11 @@ chown -R mysql:mysql /var/lib/mysql
 #检查安装目录是否存在
 if [ ! -d "/opt/fogproject-1.5.10" ]; then
     wget --no-check-certificate -P /opt https://drive.swireb.cn/d/Linux/PXE/fogproject-1.5.10.tar.gz
-    tar -xvzf /fogproject-1.5.10.tar.gz -C /opt/
+    tar -xvzf /opt/fogproject-1.5.10.tar.gz -C /opt/
+    rm -f /opt/fogproject-1.5.10.tar.gz
     cd /opt/fogproject-1.5.10/bin/
     bash installfog.sh --autoaccept
+
 fi
 cd /opt/fogproject-1.5.10/bin/
 bash installfog.sh --autoaccept

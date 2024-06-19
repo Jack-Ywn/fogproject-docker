@@ -11,7 +11,11 @@
 ## 通过Docker部署Fogproject
 
 - 仅支持host网络模式
-
+```shell
+#主机要禁用rpcbind服务防止占用端口
+systemctl stop rpcbind.socket
+systemctl disable rpcbind.socket
+```
 - 并未开启dhcp相关选项的功能
 - 文件介绍
 
